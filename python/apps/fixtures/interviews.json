@@ -1,7 +1,7 @@
 [
   {
     "model": "interviews.interview",
-    "pk": 2,
+    "pk": 1,
     "fields": {
       "begin_time": "2018-07-03T04:02:02Z",
       "end_time": "2018-07-03T04:02:02Z",

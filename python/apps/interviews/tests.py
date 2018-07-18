@@ -44,10 +44,12 @@ class InterviewCreateTestCase(CreateTestMixin, APITestCase):
                 'interviews.json']
 
     request_body = {
-        "date": timezone.now(),
+        "begin_time": "2018-07-03T04:02:02Z",
+        "end_time": "2018-07-03T04:02:02Z",
         "status": 1,
-        "interviewers": [1, 2],
-        "candidate": 1
+        "candidate": 1,
+        "description": "Some test description",
+        "location": "some location"
         }
 
 
